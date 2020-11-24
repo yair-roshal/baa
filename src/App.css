@@ -134,7 +134,7 @@ h6 {
 }
 
 .showNav {
-  height: 160px;
+  height: 210px;
 }
 
 @media screen and (min-width: 768px) {
@@ -533,9 +533,8 @@ h6 {
     margin: 0;
     padding: 0;
     border: 0;
-    /* background: transparent url(//images/logoText.png) no-repeat center top; */
-    background: transparent url(/images/logoText.png) no-repeat center top;
-
+      background: transparent url("./images/logoText.png") no-repeat center top;
+ 
     background-size: 165px 49px;
     text-indent: -1000em;
     cursor: pointer;
@@ -543,3 +542,231 @@ h6 {
 
 
   }
+
+
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;} 
+
+.knopki {
+    /* width: 140px;
+    height: 50px; */
+    margin-left: 77px;
+    /* padding: 10px; */
+  
+  }
+
+  /* .inputClass {
+ 
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+ 
+}
+  .inputClassTextArea {
+ 
+      width: 100%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none;
+   
+  } */
+
+  * {box-sizing: border-box;}
+  body {background: #F5E9D9;}
+  .postcard {
+    max-width: 350px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: #fffdee;
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px,transparent 30px, transparent 40px);
+    font-family: 'Playfair Display';
+    color: #605756;
+  }
+  .form-row {margin-bottom: 15px;}
+  .form-row input[type="text"], 
+  .form-row input[type="email"], 
+  .form-row input[type="tel"], 
+  .form-row textarea {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 35px;
+    border-width: 0;
+    outline: none;
+    background: transparent url(https://html5book.ru/wp-content/uploads/2016/12/bg-form.png) bottom left repeat-x;
+    background-size: 8px 35px;
+    font-family: 'Playfair Display';
+  }
+  .form-row textarea {
+    background-attachment: local;
+    background-repeat: repeat;
+    resize: none;
+  }
+  .form-row input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #F67CA5;
+    border-width: 0;
+    cursor: pointer; 
+    outline: none;
+    font-family: 'Playfair Display';
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #fffdee;
+    text-transform: uppercase;
+    transition: 1s cubic-bezier(.165, .84, .44, 1);
+  }
+
+  .form-row input[type=submit]:hover {background: #C42061;}
+
+
+  a.button15 {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+  }
+  a.button15:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+  a.button15:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+/* -------------------------------- */
+  .ItemSlider {
+    position: relative;
+       height: 20vh; 
+
+     } 
+
+  .divRight {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+ }
+
+  .imgRight {
+    width: 35vw;
+    height: 20vh;
+  
+  }
+
+  .divTitle {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 60vw;
+    overflow: hidden;
+ } 
+  .divSubTitle {
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    width: 70vw;
+    height: 30vh;
+ } 
+  .ourWork {
+    /* position: absolute; */
+    /* left: 10%;
+    top: 50px; */
+    width: 100%;
+    height: 100%;
+ } 
+ 
+ .whoWe {
+    position: relative;
+  
+    width: 100%;
+    height: 700px;
+ } 
+
+ .whoTitle {
+  text-align: center;
+ 
+} 
+ 
+ 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  grid-gap: 10px;
+  background-color: #dad7c1;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #dad7c1;
+  padding: 10px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}

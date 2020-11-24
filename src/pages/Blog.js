@@ -9,14 +9,31 @@ const blog = () => {
   return  (
   <>
    <Hero hero="housesHero">
-  <Banner title="our houses">
-    <Link to="/" className="btn-primary">
+  <Banner title="Наш Блог">
+    <Link className="btn-primary" to="/" >
       return home
     </Link>
   </Banner>
 </Hero>
 
-<HouseContainer/>
+{/* <HouseContainer/> */}
+
+
+<button className="button15"></button>
+
+
+
+<Link className="btn-primary" to="/" >
+      подблог1
+   </Link> <br/>
+
+   <Link className="btn-primary" to="/" >
+      подблог2
+   </Link><br/>
+
+   <Link className="btn-primary" to="/" >
+      подблог3
+   </Link><br/>
 
 </>
 )

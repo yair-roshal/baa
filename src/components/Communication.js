@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import { FiAtSign, FiFacebook, FiPhoneIncoming, FiPhoneCall } from "react-icons/fi";
 import Title from "./Title";
+// import { Form,Button } from 'react-bootstrap';
+import MyForm from "./Myform.js"
 
 export default class Communication extends Component {
   state = {
@@ -19,21 +21,7 @@ export default class Communication extends Component {
         `
       },
 
-      {
-        icon: <FiFacebook />,
-        title: "Давайте дружить",
-        info: `https://www.facebook.com/Binyan-Adei-Ad-349673261794655/
-        
-        https://www.facebook.com/binyanadeiad.org/
-        `
-      },
-
-      // {
-      //   icon: <FiPhoneIncoming />,
-      //   title: "   Investment properties",
-      //   info: `Looking to invest in Israel?
-      //   Check out our wide selection!`
-      // }
+     
     ]
   };
   render() {
@@ -42,10 +30,7 @@ export default class Communication extends Component {
         <Title title="services" />
         <div className="services-center">
 
-
-
-          
-
+ 
           {this.state.services.map((item, index) => {
             return (
               <article key={index} className="service">
@@ -56,24 +41,34 @@ export default class Communication extends Component {
             );
           })}
 
+
           <article className="service">
-                <span><FiPhoneIncoming /></span>
-                <h6>11111111111</h6>
-                <p>22222222</p>
- 
+                <span><FiFacebook /></span>
+                <h6>Мы в соц.сетях</h6>
+            <div className="knopki">
               
+            
+                <div class="social instagram">
+                  <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+              </div>
+              <div class="social facebook">
+                  <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+              </div>
+            </div> 
               </article>
 
-
+          <article className="service">
+                <span><FiPhoneIncoming /></span>
+                <h6>Напишите нам!</h6>
+                   
+                  <MyForm/>
+  
+              </article>
+ 
         </div>
-
-
-
+ 
       </section>
-
-
-
-
+ 
     );
   }
 }

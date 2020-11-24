@@ -23,6 +23,8 @@ export default class Navbar extends Component {
               {/* <img src="../images/logo RE 999.svg" alt="Real Estate22" /> */}
              <div class="divLogo">
              <button class="logo">Binyan Adey Ad</button>
+              {/* <p>Binyan Adey Ad</p>
+              <p>בניין עדי עד</p> */}
              </div> 
             </Link>
 
@@ -49,7 +51,7 @@ export default class Navbar extends Component {
             <li>
               <Link to="/blog">Blog</Link>
             </li>
-            
+
             <li>
               <Link to="/programs">Programs</Link>
             </li>
