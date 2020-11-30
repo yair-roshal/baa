@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/baa/static/css/main.47a57ab1.chunk.css",
+    "main.js": "/baa/static/js/main.23d4db4a.chunk.js",
+    "main.js.map": "/baa/static/js/main.23d4db4a.chunk.js.map",
+    "runtime-main.js": "/baa/static/js/runtime-main.e4ea08da.js",
+    "runtime-main.js.map": "/baa/static/js/runtime-main.e4ea08da.js.map",
+    "static/css/2.6b00acf2.chunk.css": "/baa/static/css/2.6b00acf2.chunk.css",
+    "static/js/2.9113fc65.chunk.js": "/baa/static/js/2.9113fc65.chunk.js",
+    "static/js/2.9113fc65.chunk.js.map": "/baa/static/js/2.9113fc65.chunk.js.map",
+    "index.html": "/baa/index.html",
+    "precache-manifest.fd13b393a471f47f79b4c08a84ccfd76.js": "/baa/precache-manifest.fd13b393a471f47f79b4c08a84ccfd76.js",
+    "service-worker.js": "/baa/service-worker.js",
+    "static/css/2.6b00acf2.chunk.css.map": "/baa/static/css/2.6b00acf2.chunk.css.map",
+    "static/css/main.47a57ab1.chunk.css.map": "/baa/static/css/main.47a57ab1.chunk.css.map",
+    "static/media/06-11-2020-110610.png": "/baa/static/media/06-11-2020-110610.40d627cb.png",
+    "static/media/App.css": "/baa/static/media/logoText.d44e703f.png",
+    "static/media/details-1.jpg": "/baa/static/media/details-1.7f0fc969.jpg",
+    "static/media/details-2.jpg": "/baa/static/media/details-2.9d2146fb.jpg",
+    "static/media/details-3.jpg": "/baa/static/media/details-3.71c9d897.jpg",
+    "static/media/details-4.jpg": "/baa/static/media/details-4.eef480ea.jpg",
+    "static/media/house-1.jpg": "/baa/static/media/house-1.77cc855d.jpg",
+    "static/media/house-10.jpg": "/baa/static/media/house-10.f0e43dd6.jpg",
+    "static/media/house-11.jpg": "/baa/static/media/house-11.7d886a9d.jpg",
+    "static/media/house-12.jpg": "/baa/static/media/house-12.8e7e4f85.jpg",
+    "static/media/house-3.jpg": "/baa/static/media/house-3.181bbb92.jpg",
+    "static/media/house-4.jpg": "/baa/static/media/house-4.12e5bcd3.jpg",
+    "static/media/house-5.jpg": "/baa/static/media/house-5.1d32f122.jpg",
+    "static/media/house-6.jpg": "/baa/static/media/house-6.3964e2bf.jpg",
+    "static/media/house-7.jpg": "/baa/static/media/house-7.d4924893.jpg",
+    "static/media/house-8.jpg": "/baa/static/media/house-8.9032712d.jpg",
+    "static/media/house-9.jpg": "/baa/static/media/house-9.6b4110d3.jpg",
+    "static/media/loading-arrow.gif": "/baa/static/media/loading-arrow.e9ea7394.gif",
+    "static/media/ourWork.png": "/baa/static/media/ourWork.97e4c8cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4ea08da.js",
+    "static/css/2.6b00acf2.chunk.css",
+    "static/js/2.9113fc65.chunk.js",
+    "static/css/main.47a57ab1.chunk.css",
+    "static/js/main.23d4db4a.chunk.js"
+  ]
+}
