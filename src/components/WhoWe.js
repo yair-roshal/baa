@@ -2,8 +2,6 @@ import React from "react";
 
 export default function WhoWe( ) {
   return (
-
-
 <div className="whoWe">
 
 <h2 className="whoTitle">Кто мы</h2>
