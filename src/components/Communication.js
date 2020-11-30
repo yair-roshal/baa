@@ -11,14 +11,12 @@ export default class Communication extends Component {
       {
         icon: <FiPhoneCall />,
         title: "Звоните нам",
-        info: `0587705778`
+        info: `0542622070`
       },
       {
         icon: <FiAtSign />,
         title: "Пишите нам",
-        info: `yair7705778@gmail.com
-        office@binyanadeiad.org
-        `
+        info: `office@binyanadeiad.org`
       },
 
      
@@ -48,11 +46,11 @@ export default class Communication extends Component {
             <div className="knopki">
               
             
-                <div class="social instagram">
+                <div class="social facebook">
                   <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
               </div>
               <div class="social facebook">
-                  <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+                  <a href="https://www.facebook.com/binyanadeiad.org/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
               </div>
             </div> 
               </article>
