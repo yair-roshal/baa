@@ -47,7 +47,7 @@ export default class Communication extends Component {
               
             
                 <div class="social facebook">
-                  <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                  <a href="https://www.facebook.com/Binyan-Adei-Ad-349673261794655/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
               </div>
               <div class="social facebook">
                   <a href="https://www.facebook.com/binyanadeiad.org/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
