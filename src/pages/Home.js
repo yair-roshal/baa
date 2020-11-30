@@ -10,6 +10,7 @@ import WhoWe from '../components/WhoWe'
 // import Slider from 'infinite-react-carousel';
  
 
+
 import MySlider from '../components/MySlider'
 
 export default function Home() {

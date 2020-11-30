@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "0000 zdoko @ 765b544",
+			"uri": "gitlens://765b544/c:/000 web school/0000 work/000001 proektim/0000 zdoko?{\"path\":\"/c:/000 web school/0000 work/000001 proektim/0000 zdoko\",\"ref\":\"765b544d242ef7cd0fa09aa206b3225b8c4d67e1\",\"repoPath\":\"c:/000 web school/0000 work/000001 proektim/0000 zdoko\"}"
 		}
 	],
 	"settings": {}
